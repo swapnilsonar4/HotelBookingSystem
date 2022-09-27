@@ -1,0 +1,40 @@
+.LandingPage {
+    font-size: large;
+    color: white;
+    background-image: url(./images/coverImage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    padding-bottom: 50px;
+}
+
+.imgPosition {
+    position: relative;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+.margin {
+    background-color: white;
+}
